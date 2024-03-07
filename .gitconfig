@@ -1,0 +1,14 @@
+[user]
+	name = linya0o
+	email = linya0o@163.com
+[core]
+	autocrlf = input
+	safecrlf = true
+	quotepath = false
+[alias]
+	last = log -1
+	ll = log --pretty=format:\"%h - %an, %cd : %s\" --date=short
+	ss = status
+	lg = log --oneline --graph --all
+[init]
+	defaultBranch = main
